@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+header{
+  top: 0;
+  left: 0;
+  right: 0;
+ position: fixed;
+}
+#pic{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  box-shadow: 0 0 25px;
+  transition: 2s;
+
+}
+
+#pic1:hover{
+  background-color: rgb(238, 160, 105);
+}
+#pic2:hover{
+  background-color: rgb(238, 160, 105);
+
+}
+#pic3:hover{
+  background-color: rgb(238, 160, 105);
+
+}
+#pic4:hover{
+  background-color: rgb(238, 160, 105);
+
+}
+#pic5:hover{
+  background-color: rgb(238, 160, 105);
+
+}
+#pic6:hover{
+  background-color: rgb(238, 160, 105);
+
+}
+
+
+#pic1{
+  border: solid;
+  border-color: black;
+  
+}
+
+
+#pic2{
+  border: solid;
+  border-color: black;
+}
+#pic3{
+  border: solid;
+  border-color: black;
+}
+#pic4{
+  border: solid;
+  border-color: black;
+}
+#pic5{
+  border: solid;
+  border-color: black;
+}
+#pic6{
+  border: solid;
+  border-color: black;
+}
+
+
+
